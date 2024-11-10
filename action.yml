@@ -37,7 +37,8 @@ inputs:
     description: 'Configuration for building the kernel'
     required: true
     default: gki_defconfig
-  arch: arm64
+  arch:
+    description: 'Architecture'
     required: true
     default: arm64
   android-version: 12
@@ -48,7 +49,7 @@ inputs:
     description: 'KernelSU function support'
     required: false
     default: false
-  ksu-version: main
+  ksu-version: 
     description: 'KernelSU default branch'
     required: false
     default: "main"
