@@ -6,7 +6,7 @@ branding:
   color: 'blue'
 
 inputs:
-  kernel-url: https://github.com/Shirayuki39/kernel_new
+  kernel-url: https://github.com/WhiteSnow00/kernel_new
     description: 'Kernel Source Url'
     required: true
   depth:
