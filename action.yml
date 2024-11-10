@@ -6,9 +6,10 @@ branding:
   color: 'blue'
 
 inputs:
-  kernel-url: https://github.com/WhiteSnow00/kernel_new
+  kernel-url:
     description: 'Kernel Source Url'
     required: true
+    default: 'https://github.com/WhiteSnow00/kernel_new'
   depth:
     required: false
     default: 1
