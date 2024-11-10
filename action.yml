@@ -26,10 +26,10 @@ inputs:
   vendor-dir:
     required: false
     default: vendor
-  kernel-branch: shirayuki-5.10
+  kernel-branch:
     description: 'Branch name'
     required: true
-    default: main
+    default: shirayuki-5.10
   vendor-branch:
     required: false
     default: main
