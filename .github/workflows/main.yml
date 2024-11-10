@@ -25,9 +25,9 @@ jobs:
     - name: Build Kernel
       uses: ./
       with:
-          kernel-url: https://github.com/WhiteSnow00/kernel_new
+          kernel-url: https://github.com/WhiteSnow00/android_kernel_common_silvercore
           kernel-dir: msm-5.10
-          kernel-branch: shirayuki-5.10
+          kernel-branch: staging
           config: gki_defconfig
           arch: arm64
           aosp-gcc: true
