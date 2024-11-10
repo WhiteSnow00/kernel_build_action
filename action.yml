@@ -45,10 +45,10 @@ inputs:
     description: 'Android version'
     required: true
     default: 12
-  ksu: true
+  ksu:
     description: 'KernelSU function support'
     required: false
-    default: false
+    default: true
   ksu-version: 
     description: 'KernelSU default branch'
     required: false
@@ -100,7 +100,7 @@ inputs:
     description: 'Use clang from aosp project.'
     required: false
     default: false
-  aosp-clang-version: r383902
+  aosp-clang-version: 
     required: false
     default: "r383902"
   other-clang-url:
@@ -117,10 +117,10 @@ inputs:
     description: 'Please press nember instead of r(e.g. : 26).'
     required: false
     default: r21b
-  anykernel3: true
+  anykernel3: 
     description: 'Package kernel use anykernel3.'
     required: false
-    default: false
+    default: true
   anykernel3-url:
     description: '3rdparty anykernrl3 url path'
     required: false
