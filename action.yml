@@ -96,10 +96,10 @@ inputs:
     description: 'Use gcc from aosp project.'
     required: true
     default: true
-  aosp-clang: true
+  aosp-clang: 
     description: 'Use clang from aosp project.'
     required: false
-    default: false
+    default: true
   aosp-clang-version: 
     required: false
     default: "r383902"
