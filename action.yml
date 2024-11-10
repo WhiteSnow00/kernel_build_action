@@ -6,7 +6,7 @@ branding:
   color: 'blue'
 
 inputs:
-  kernel-url: https://github.com/Shirayuki39/kernel_new
+  kernel-url: https://github.com/Shirayuki39/kernel_new 
     description: 'Kernel Source Url'
     required: true
   depth:
@@ -31,7 +31,7 @@ inputs:
   vendor-branch:
     required: false
     default: main
-  config: cas_defconfig
+  config: defconfig
     description: 'configuration for building android kernel'
     required: true
     default: defconfig
