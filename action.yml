@@ -19,9 +19,10 @@ inputs:
   vendor-url:
     description: 'Kernel Vendor Source Url'
     required: false
-  kernel-dir: msm-5.10
+  kernel-dir:
+    description: 'Kernel Directory'
     required: false
-    default: kernel
+    default: msm-5.10
   vendor-dir:
     required: false
     default: vendor
