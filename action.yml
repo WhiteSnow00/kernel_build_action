@@ -7,7 +7,7 @@ branding:
 
 inputs:
   kernel-url: https://github.com/WhiteSnow00/kernel_new
-    description: Kernel Source Url
+    description:  'Kernel Source Url'
     required: true
   depth:
     required: false
