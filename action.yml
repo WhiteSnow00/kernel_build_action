@@ -41,8 +41,8 @@ inputs:
     description: 'Architecture'
     required: true
     default: arm64
-  android-version: 12
-    description: 'Android version.'
+  android-version:
+    description: 'Android version'
     required: true
     default: 12
   ksu: true
