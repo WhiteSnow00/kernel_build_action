@@ -25,10 +25,10 @@ jobs:
     - name: Build Kernel
       uses: ./
       with:
-          kernel-url: https://github.com/WhiteSnow00/android_kernel_common_silvercore
-          kernel-dir: msm-5.10
-          kernel-branch: staging
-          config: gki_defconfig
+          kernel-url: https://github.com/cool585/android_kernel_google_bluecross
+          kernel-dir: msm-4.9
+          kernel-branch: crdroid
+          config: b1c1_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
