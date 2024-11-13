@@ -15,11 +15,12 @@ jobs:
     - name: Build Kernel
       uses: dabao1955/kernel_build_action@main
       with:
-          kernel-url: https://github.com/cool585/android_kernel_google_bluecross
+          kernel-url: https://github.com/WhiteSnow00/android_kernel_google_bluecross
           kernel-dir: msm-4.9
           kernel-branch: crdroid
           config: b1c1_defconfig
           arch: arm64
+          ksu: false
           aosp-gcc: true
           aosp-clang: true
           android-version: 12
